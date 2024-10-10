@@ -25,9 +25,11 @@ export const AddVideo = () => {
     addVideo(video)
       .then(() => {
         console.log('Video added');
+        alert('Video Added');
       })
       .catch((err) => {
         console.log(err);
+        alert('Error Adding Video ');
       });
   };
   return (
