@@ -1,6 +1,6 @@
 import React from 'react';
-import { Navbar } from '../component/navbar';
-import { VideoSearch } from '../component/videoSearch';
+import { Navbar } from '../components/navbar';
+import { VideoSearch } from '../components/videoSearch';
 
 const VideoSearchPage = () => {
   return (

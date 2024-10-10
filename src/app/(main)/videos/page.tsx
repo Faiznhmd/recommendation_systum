@@ -2,7 +2,7 @@
 
 import { useQuery } from 'convex/react';
 import { api } from '../../../../convex/_generated/api';
-import VideoCard from '../component/videoCard';
+import VideoCard from '../components/videoCard';
 import Link from 'next/link';
 
 const Page = () => {

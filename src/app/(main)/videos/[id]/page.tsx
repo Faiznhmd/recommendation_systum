@@ -4,10 +4,10 @@ import { useAction, useQuery } from 'convex/react';
 import { api } from '../../../../../convex/_generated/api';
 import { Id } from '../../../../../convex/_generated/dataModel';
 import Image from 'next/image';
-import VideoCard from '../../component/videoCard';
+import VideoCard from '../../components/videoCard';
 import { PlayIcon } from 'lucide-react';
 import { useEffect, useState } from 'react';
-import { video } from '../../component/videoSearch';
+import { video } from '../../components/videoSearch';
 
 const Page = ({
   params,

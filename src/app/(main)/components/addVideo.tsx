@@ -1,6 +1,6 @@
 'use client';
-import { Button } from '@/component/ui/button';
-import { Input } from '@/component/ui/input';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
 import { useAction } from 'convex/react';
 import React, { useState } from 'react';
 import { api } from '../../../../convex/_generated/api';
